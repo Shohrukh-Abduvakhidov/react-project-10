@@ -294,13 +294,13 @@ const App = () => {
                 "w-[70%] py-[20px] flex gap-[30px] flex-col m-auto justify-center",
             },
             React.createElement("input", {
-              className: "border-b-[2px] outline py-[5px] px-[10px]",
+              className: "border-b-[2px] border-black outline-black text-black py-[5px] px-[10px]",
               placeholder: "Name...",
               value: name,
               onChange: (e) => setName(e.target.value),
             }),
             React.createElement("input", {
-              className: "border-b-[2px] outline py-[5px] px-[10px]",
+              className: "border-b-[2px] border-black outline-black text-black py-[5px] px-[10px]",
               placeholder: "Email...",
               value: email,
               onChange: (e) => setEmail(e.target.value),
@@ -344,13 +344,13 @@ const App = () => {
                 "w-[70%] py-[20px] flex gap-[30px] flex-col m-auto justify-center",
             },
             React.createElement("input", {
-              className: "border-b-[2px] outline py-[5px] px-[10px]",
+              className: "border-b-[2px] border-black outline-black text-black py-[5px] px-[10px]",
               placeholder: "Name...",
               value: nameE,
               onChange: (e) => setNameE(e.target.value),
             }),
             React.createElement("input", {
-              className: "border-b-[2px] outline py-[5px] px-[10px]",
+              className: "border-b-[2px] border-black outline-black text-black py-[5px] px-[10px]",
               placeholder: "Email...",
               value: emailE,
               onChange: (e) => setEmailE(e.target.value),
